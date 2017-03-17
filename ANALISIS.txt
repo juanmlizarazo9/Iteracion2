@@ -1,0 +1,64 @@
+Festival:
+-Rango de fechas
+-espectaculos
+-lugar
+
+Compañia
+-Nombre
+-Representante
+-pais origen
+-pagina web
+
+Espectaculo
+-Nombre
+-Duracion
+-categoria
+-Requerimientos tecnicos
+-idioma
+-costo de realizacion
+-Compañia que lo ofrece
+-publico (participa o es parte)
+-descripcion
+-publico objetivo
+-Funciones
+
+Funcion
+-numero
+-lugar
+-espectaculo
+-fecha
+-hora
+-boletas
+
+lugar
+-tipo (abierto o cerrado)
+-capacidad
+-Capacidades especiales
+-horario
+-condiciones tecnicas
+-tipo de sillas
+-proteccion de lluvia
+
+Boleta
+-localidad
+-valor
+-beneficios
+
+Organizador
+-programa las funciones
+-Quieren conocer la capacidad de cada sitio
+-Fecha de disponibilidad de las compañias
+-Si hay demanda de funciones, se pueden crear nuevas
+
+Cliente
+-Puede consultar informacion del festival
+-
+
+Usuarios
+-Nombre
+-Id
+-Correo
+-Rol
+
+
+
