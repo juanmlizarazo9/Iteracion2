@@ -41,4 +41,20 @@ public class FestivAndesFestivServices {
 		}
 		return Response.status(200).entity(usuarios).build();
 	}
+	
+	
+	@GET
+	@Produces({MediaType.APPLICATION_JSON})
+	public Response getClientes(){
+		FestivAndesMaster fam = new FestivAndesMaster(getPath());
+		ListaUsuarios usuarios = null;
+		try{
+			usuarios = fam.darUsuarios();
+		} catch(Exception e){
+			return Response.status(500).entity(doErrorMessage(e)).build();
+		}
+		return Response.status(200).entity(usuarios).build();
+	}
+	
+	
 }
